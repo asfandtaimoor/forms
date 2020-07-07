@@ -1,0 +1,51 @@
+@import '../../Custom_Library/Scss_Functions/functions';
+body {
+    header {
+        text-align: center;
+        background-color: red;
+    }
+    .forms {
+        .form-1 {
+            position: relative;
+            max-width: 400px;
+            border: 1px solid rgb(57, 85, 124);
+            margin: auto;
+            margin-top: 5em;
+            form {
+                .header {
+                    color: white;
+                    background-color: rgb(57, 85, 124);
+                    margin: 0;
+                    width: 100%;
+                    position: relative;
+                    padding: 10px 0;
+                    text-align: center;
+                }
+                .form-group {
+                    margin: 0 30px;
+                    .form-row {
+                        margin-top: 20px;
+                        .form-control {
+                            border: 0;
+                            border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+                        }
+                    }
+                }
+                .form-row {
+                    margin-top: 30px;
+                    button {
+                        background-color: rgb(57, 85, 124);
+                        width: 110%;
+                        border: none;
+                        font-size: 32px;
+                        color: white;
+                    }
+                }
+                .forget {
+                    margin-top: 25px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
